@@ -1,0 +1,9 @@
+- src: geerlingguy.jenkins
+  path: jenkins/roles
+
+- src: geerlingguy.java
+  path: jenkins/roles
+
+- src: https://github.com/celik0311/ansible-role-jenkins-jobs.git
+  path: jenkins/roles
+  name: jobs

@@ -1,0 +1,11 @@
+---
+- hosts: jenkins
+  sudo: yes
+  vars:
+    job: demo
+
+  roles:
+    - geerlingguy.jenkins
+    - jobs
+
+- include: playbooks/main.yml
